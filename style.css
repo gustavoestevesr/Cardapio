@@ -1,0 +1,117 @@
+#title{
+    text-align: center;   
+    margin-bottom: 0;
+}
+
+.categories{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#itens{
+    margin-top: 40px;
+}
+
+a{
+    cursor: pointer;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}   
+
+a:hover{
+    font-size: larger;
+}
+
+hr{
+    width: 100px;
+}
+
+.hr-food{
+    margin-top: 0;
+    width: 100%;
+}
+
+.value{
+    margin-left: auto;
+}
+
+.name-of-the-food{
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.food{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    max-height: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition-delay: 1s;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px -1px black;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+p{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.row-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.column-content{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 0;
+}
+
+
+@media (max-width: 1200px) { 
+
+    .food{
+        display: inline;
+    }
+
+    .column{
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 665px) { 
+
+    .food{
+        display: inline;
+    }
+
+    .column{
+        width: 100%;
+    }
+
+}
